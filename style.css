@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: oswald;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: oswald;
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: transparent;
+    color: royalblue;
+ 
+  
+
+}
+/* h1::webkit-text{
+   
+    background-image: url(https://media.tenor.com/KdtU9q5XTkEAAAAS/rainbow.gif);
+    background-size: cover;
+    background-position: center;
+} */
+#container{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    /* background-color: -webkit-linear-radial (#98833e, #5c591b); */
+    background: linear-gradient(to bottom right, rgba(179, 117, 2, 0.555),rgba(150, 97, 0, 0.478), rgba(166, 109, 2, 0.615), rgb(158, 104, 3));
+    padding: 50px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+label{
+    display: block;
+}
+#temp{
+    width: 50%;
+    padding: 50px 0;   
+   
+  
+    background: linear-gradient(to bottom, royalblue,rgba(65, 105, 225, 0.773) );
+    box-shadow: 2px 2px 20px 2px #816402;
+
+}
+
+.input-div{
+    display: inline-block;
+}
+.inp{
+    padding: 4px 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: rgba(222, 184, 135, 0.749);
+}
+label{
+    font-size:22px ;
+    font-weight: 500;
+}
